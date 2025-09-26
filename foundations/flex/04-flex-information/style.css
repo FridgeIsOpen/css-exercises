@@ -7,7 +7,8 @@ img {
   height: 100px;
 }
 
-.title {
+.title {  
+  
   font-size: 36px;
   font-weight: 900;
 }
@@ -23,4 +24,25 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.berrys {
+  display: flex;
+  
+  justify-content: space-evenly;
+  
+  
+}
+
+.berrys .containerr {
+  display: flex;
+  max-width: 200px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }

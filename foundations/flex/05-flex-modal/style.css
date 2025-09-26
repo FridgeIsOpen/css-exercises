@@ -13,9 +13,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .modal {
+  padding: 15px;
   background: white;
   width: 480px;
   border-radius: 10px;
@@ -66,4 +68,30 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+
+/*...............................................................*/
+
+
+
+.modal{
+  display: flex;
+  gap: 16px;
+}
+
+.containerone {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.firstline {
+  display: flex;
+  justify-content: space-between;
+}
+.buttons {
+  display: flex;
+  max-width: 100px;
+  gap: 5px;
 }
